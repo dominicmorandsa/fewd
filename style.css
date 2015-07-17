@@ -5,24 +5,16 @@ body {
 /*
  * Top navigation
  */
+
  .navbar {
- 	min-height: 25px;
- 	margin-bottom: 0px;
+ 	min-height: 35px;
+ }
+ .navbar.navbar-default {
+ 	min-height: 35px;
  }
 
-#nav1 {
-	border-radius: 0;
-	border: none;
-	background-color: #005689;
-}
-
- #nav1 a {
- 	color: #FFFFFF;
- 	background-color: #005689;
- }
  #nav2 {
- 	border-radius: 0;
- 	border: none;
+ 	min-height: 35px;
  	color: #FFFFFF;
  	background-color: #00456E;
  }
@@ -37,8 +29,6 @@ body {
  }
 
 #nav2-left {
-	margin-top: 10px;
-	margin-bottom: 5px;
 	background-color: #00456E;
 	
 }
@@ -46,7 +36,6 @@ body {
 	background-color: #333333;
 	float: right;
 }
-
 a {
 	color: #fff;
 }
@@ -59,40 +48,15 @@ a {
 }
 
 .side-info {
-	
 	list-style: none;
 }
 
 .side-info a {
-	font-size: 18px;
-	color: #005689;
+	color: #00456E;
 }
 .breadcrumb a {
 	color: #5B8EAC;
 }
-#guard {
-	border-radius: 0;
-	border: none;
-	background-color: #005689;
-}
-#guardian {
-	padding: 4px 24px 10px 24px;
-	border: none;
-	font-size: 56px;
-	
-	
-	float: right;
-}
-
-#the {
-	padding: 0;
-	color: #AAD8F1;
-}
-
-#gua {
-	color: #fff;
-}
-
 
 /*
  * Sidebar
@@ -102,7 +66,7 @@ a {
 .sidebar {
   display: none;
 }
-@media (min-width: 650px) {
+@media (min-width: 768px) {
   .sidebar {
     position: fixed;
     top: 51px;
@@ -135,7 +99,12 @@ a {
   background-color: #428bca;
 }
 
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
 
+}
 
 
 .main-article-wrapper {
@@ -147,7 +116,7 @@ a {
 }
 
 .main-article-headline  {
-	font-size: 24px;
+	font-size: 18px;
 
 }
 
@@ -182,41 +151,4 @@ a {
 .topic-highlight {
 	color: #fff;
 	background-color: #84194B;
-}
-
-figcaption {
-	font-size: 10px;
-	padding-top: 5px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-.byline {
-border-top: 1px dotted gray;
-color: #005689;
-
-}
-
-#by-name {
-	font-weight: bold;
-}
-
-#by-email {
-	font-size: 12px;
-}
-
-#by-date {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-bottom: 1px dotted gray;
-}
-
-.social {
-
-}
-
-.blog-text {
-	padding-top: 40px;
-
 }
