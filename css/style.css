@@ -213,7 +213,22 @@ color: #005689;
 }
 
 .social {
+	margin: 0;
+	padding: 12px;
+	border-bottom: 1px dotted gray;
+}
+#soc-icons {
+	width: 60%;
+	float: left;
+}
+#soc-shares {
+	width: 20%;
+	float: right;
+}
 
+#soc-comments {
+	width: 20%;
+	float: right;
 }
 
 .blog-text {
